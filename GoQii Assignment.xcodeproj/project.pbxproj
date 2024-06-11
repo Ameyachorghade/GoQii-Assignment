@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDA6161D2C18626900CF00AA /* GoQii_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6161C2C18626900CF00AA /* GoQii_AssignmentApp.swift */; };
+		DDA6161F2C18626900CF00AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6161E2C18626900CF00AA /* ContentView.swift */; };
+		DDA616212C18626B00CF00AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA616202C18626B00CF00AA /* Assets.xcassets */; };
+		DDA616242C18626B00CF00AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDA616232C18626B00CF00AA /* Preview Assets.xcassets */; };
+		DDA616262C18626B00CF00AA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA616252C18626B00CF00AA /* Persistence.swift */; };
+		DDA616292C18626B00CF00AA /* GoQii_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDA616272C18626B00CF00AA /* GoQii_Assignment.xcdatamodeld */; };
+		DDA616302C1862C100CF00AA /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA6162F2C1862C100CF00AA /* PersistenceController.swift */; };
+		DDA616322C1862F100CF00AA /* HydrationRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA616312C1862F100CF00AA /* HydrationRingView.swift */; };
+		DDA616342C18631200CF00AA /* AddWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA616332C18631200CF00AA /* AddWaterView.swift */; };
+		DDA616362C18633700CF00AA /* EditWaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA616352C18633700CF00AA /* EditWaterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDA616192C18626900CF00AA /* GoQii Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoQii Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA6161C2C18626900CF00AA /* GoQii_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoQii_AssignmentApp.swift; sourceTree = "<group>"; };
+		DDA6161E2C18626900CF00AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDA616202C18626B00CF00AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDA616232C18626B00CF00AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDA616252C18626B00CF00AA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DDA616282C18626B00CF00AA /* GoQii_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoQii_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		DDA6162F2C1862C100CF00AA /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		DDA616312C1862F100CF00AA /* HydrationRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationRingView.swift; sourceTree = "<group>"; };
+		DDA616332C18631200CF00AA /* AddWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWaterView.swift; sourceTree = "<group>"; };
+		DDA616352C18633700CF00AA /* EditWaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWaterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA616162C18626900CF00AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA616102C18626900CF00AA = {
+			isa = PBXGroup;
+			children = (
+				DDA6161B2C18626900CF00AA /* GoQii Assignment */,
+				DDA6161A2C18626900CF00AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA6161A2C18626900CF00AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA616192C18626900CF00AA /* GoQii Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA6161B2C18626900CF00AA /* GoQii Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				DDA6161C2C18626900CF00AA /* GoQii_AssignmentApp.swift */,
+				DDA6161E2C18626900CF00AA /* ContentView.swift */,
+				DDA616202C18626B00CF00AA /* Assets.xcassets */,
+				DDA616252C18626B00CF00AA /* Persistence.swift */,
+				DDA616272C18626B00CF00AA /* GoQii_Assignment.xcdatamodeld */,
+				DDA616222C18626B00CF00AA /* Preview Content */,
+				DDA6162F2C1862C100CF00AA /* PersistenceController.swift */,
+				DDA616312C1862F100CF00AA /* HydrationRingView.swift */,
+				DDA616332C18631200CF00AA /* AddWaterView.swift */,
+				DDA616352C18633700CF00AA /* EditWaterView.swift */,
+			);
+			path = "GoQii Assignment";
+			sourceTree = "<group>";
+		};
+		DDA616222C18626B00CF00AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDA616232C18626B00CF00AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA616182C18626900CF00AA /* GoQii Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA6162C2C18626B00CF00AA /* Build configuration list for PBXNativeTarget "GoQii Assignment" */;
+			buildPhases = (
+				DDA616152C18626900CF00AA /* Sources */,
+				DDA616162C18626900CF00AA /* Frameworks */,
+				DDA616172C18626900CF00AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoQii Assignment";
+			productName = "GoQii Assignment";
+			productReference = DDA616192C18626900CF00AA /* GoQii Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA616112C18626900CF00AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DDA616182C18626900CF00AA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DDA616142C18626900CF00AA /* Build configuration list for PBXProject "GoQii Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA616102C18626900CF00AA;
+			productRefGroup = DDA6161A2C18626900CF00AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA616182C18626900CF00AA /* GoQii Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA616172C18626900CF00AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA616242C18626B00CF00AA /* Preview Assets.xcassets in Resources */,
+				DDA616212C18626B00CF00AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA616152C18626900CF00AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA616262C18626B00CF00AA /* Persistence.swift in Sources */,
+				DDA616342C18631200CF00AA /* AddWaterView.swift in Sources */,
+				DDA616362C18633700CF00AA /* EditWaterView.swift in Sources */,
+				DDA6161F2C18626900CF00AA /* ContentView.swift in Sources */,
+				DDA616292C18626B00CF00AA /* GoQii_Assignment.xcdatamodeld in Sources */,
+				DDA6161D2C18626900CF00AA /* GoQii_AssignmentApp.swift in Sources */,
+				DDA616302C1862C100CF00AA /* PersistenceController.swift in Sources */,
+				DDA616322C1862F100CF00AA /* HydrationRingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDA6162A2C18626B00CF00AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA6162B2C18626B00CF00AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDA6162D2C18626B00CF00AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoQii Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = PZBS87SR3U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.GoQii-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDA6162E2C18626B00CF00AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoQii Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = PZBS87SR3U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.GoQii-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA616142C18626900CF00AA /* Build configuration list for PBXProject "GoQii Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA6162A2C18626B00CF00AA /* Debug */,
+				DDA6162B2C18626B00CF00AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA6162C2C18626B00CF00AA /* Build configuration list for PBXNativeTarget "GoQii Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA6162D2C18626B00CF00AA /* Debug */,
+				DDA6162E2C18626B00CF00AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDA616272C18626B00CF00AA /* GoQii_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDA616282C18626B00CF00AA /* GoQii_Assignment.xcdatamodel */,
+			);
+			currentVersion = DDA616282C18626B00CF00AA /* GoQii_Assignment.xcdatamodel */;
+			path = GoQii_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDA616112C18626900CF00AA /* Project object */;
+}
